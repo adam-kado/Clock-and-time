@@ -16,7 +16,7 @@ document.getElementById("body").style.background =localStorage.getItem("Color");
 }
 
 function setColor(){
-document.getElementById("setColor").value = localStorage.getItem("Color");
+    getColor.value = localStorage.getItem("Color");
 document.getElementById("time").style.background =localStorage.getItem("Color");
 document.getElementById("body").style.background = localStorage.getItem("Color");
 }
